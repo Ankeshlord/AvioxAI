@@ -7,7 +7,7 @@ function Home() {
      async function ApiHandle(){
         // console.log(userinput.current.value)
         let Apiurl = 'https://api.openai.com/v1/chat/completions';
-        const apiKey ='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'
+        const apiKey =''
         const headers = {
             'Content-Type': 'application/json',
             'Authorizaton':`Bearer ${apiKey}`
